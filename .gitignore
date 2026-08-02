@@ -1,0 +1,97 @@
+# ==========================
+# Dependencies
+# ==========================
+node_modules/
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# ==========================
+# Logs
+# ==========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==========================
+# Build Files
+# ==========================
+dist/
+build/
+coverage/
+.next/
+out/
+.cache/
+.vite/
+
+# ==========================
+# OS Files
+# ==========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==========================
+# IDE / Editor
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================
+# Runtime Files
+# ==========================
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# ==========================
+# Package Manager
+# ==========================
+package-lock.json
+# Uncomment below if you use Yarn or PNPM
+# yarn.lock
+# pnpm-lock.yaml
+
+# ==========================
+# Temporary Files
+# ==========================
+tmp/
+temp/
+*.tmp
+
+# ==========================
+# Uploads (Optional)
+# Uncomment if uploaded files should NOT be committed
+# uploads/
+# public/uploads/
+
+# ==========================
+# Database Files
+# Uncomment if using local databases
+# *.sqlite
+# *.db
+
+# ==========================
+# Testing
+# ==========================
+.nyc_output/
+
+# ==========================
+# Miscellaneous
+# ==========================
+*.zip
+*.tar
+*.gz
+*.rar
