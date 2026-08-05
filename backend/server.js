@@ -4,6 +4,7 @@ const app = express();
 
 app.get("/",(req, res)=>{
     res.status(200).json("Hello there! How are You!")
+    
 })
 
 app.listen(3000,()=>{
